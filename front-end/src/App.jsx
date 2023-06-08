@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     const getArticles = async () => {
       try {
-        const response = await axios.get("https://jazzy-croissant-15f8fc.netlify.app/api/articles?populate=assets");
+        const response = await axios.get("http://localhost:1337/api/articles?populate=assets");
         setArticles(response.data.data);
         console.log(response.data.data);
       } catch (error) {
