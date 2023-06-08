@@ -1,0 +1,22 @@
+.bloc {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-family: cursive;
+  padding: 2rem;
+}
+
+.children {
+  border: 1px solid rgb(187, 182, 182);
+  border-radius: 2rem;
+  padding: 1rem;
+  flex: .2;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+img {
+  width: 150px;
+}
